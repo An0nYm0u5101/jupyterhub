@@ -18,3 +18,5 @@ requests-mock
 # I *think* this should only affect testing, not production
 urllib3!=1.25.4,!=1.25.5
 virtualenv
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
